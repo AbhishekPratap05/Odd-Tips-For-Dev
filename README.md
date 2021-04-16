@@ -1,7 +1,9 @@
 ## All the usefull tips here
 
-- ###  To search and delete node modules from older project.
-#### we all suddenly face problem with device space getting full, main culprit for us developers is dependencies (node_modules), it can be more than 300MB+ 😲 for react and more if you add more dependencies later on, which we all do 🤦‍♂️.
+<details>
+<summary><b style="font-size:24px">To search and delete node_modules from older projects.🚮</b></summary>
+
+#### we all suddenly face problem with device space  getting full, main culprit for us developers is dependencies (node_modules), it can be more than 300MB+ 😲 for react and more if you add more dependencies later on, which we all do 🤦‍♂️.
 #### There is a awesome tool to kill them, i mean not really kill but delete.
 #### **[npkill](https://npkill.js.org/)** is just awesome easy to use cli tool.
 
@@ -34,6 +36,7 @@ $ npx npkill
 <code>$ npkill -d '~/more projects' -gb --sort size --target vendor</code>
 </ul>
 </p>
+</details>
 </details>
 
 </br></br>
