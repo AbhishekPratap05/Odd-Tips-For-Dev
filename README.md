@@ -1,23 +1,23 @@
-# All the usefull tips here
+## All the usefull tips here
 
-- ##  To search and delete node modules from older project.
-### we all suddenly face problem with device space getting full, main culprit for us developers is dependencies (node_modules), it can be more than 300MB+ 😲 for react and more if you add more dependencies later on, which we all do 🤦‍♂️.
-### There is a awesome tool to kill them, i mean not really kill but delete.
-### **[npkill](https://npkill.js.org/)** is just awesome easy to use cli tool.
+- ###  To search and delete node modules from older project.
+#### we all suddenly face problem with device space getting full, main culprit for us developers is dependencies (node_modules), it can be more than 300MB+ 😲 for react and more if you add more dependencies later on, which we all do 🤦‍♂️.
+#### There is a awesome tool to kill them, i mean not really kill but delete.
+#### **[npkill](https://npkill.js.org/)** is just awesome easy to use cli tool.
 
-- ### You can install globally by running 
+- #### You can install globally by running 
 ```
 $ npm i -g npkill
 ```
-> ### Make sure you have node installed 
+> #### Make sure you have node installed 
 
-- ### You can also use it without installing it by running
+- #### You can also use it without installing it by running
 ```
 $ npx npkill
 ```
 <p align="center">
-  <img src="https://npkill.js.org/img/start%20search.gif" width="450px" title="start search" alt="npkill searching">
-  <img src="https://npkill.js.org/img/deleting.gif" width="450px" title="deleting" alt="npkill deleting">
+  <img src="https://npkill.js.org/img/start%20search.gif" width="48%" title="start search" alt="npkill searching">
+  <img src="https://npkill.js.org/img/deleting.gif" width="48%" title="deleting" alt="npkill deleting">
 </p>
 
 <details>
